@@ -7,3 +7,5 @@ deposit_account = {
 }
 profit1=deposit_account['balance']*deposit_account['interest_rate']
 print(f"Нараховані відсотки: {profit1:.2f}")
+deposit_account['balance']=deposit_account['balance']+deposit_account['balance']*deposit_account['interest_rate']
+
