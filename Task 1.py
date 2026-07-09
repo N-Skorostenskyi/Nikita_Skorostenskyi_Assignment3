@@ -9,3 +9,4 @@ book_profile = {
 }
 
 print(f"Назва: {book_profile["title"]}, автор: {book_profile["author"]}")
+print(f"Видавництво: {book_profile['publisher_info']['name']}")
