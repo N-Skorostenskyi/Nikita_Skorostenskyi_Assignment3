@@ -5,5 +5,5 @@ deposit_account = {
 "interest_rate": 0.08, # 8% річних
 "is_active": True
 }
-
-print(f"Нараховані відсотки: {(deposit_account['balance']*deposit_account['interest_rate']):.2f}")
+profit1=deposit_account['balance']*deposit_account['interest_rate']
+print(f"Нараховані відсотки: {profit1:.2f}")
