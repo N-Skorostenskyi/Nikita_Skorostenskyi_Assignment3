@@ -7,5 +7,11 @@ deposit_account = {
 }
 profit1=deposit_account['balance']*deposit_account['interest_rate']
 print(f"Нараховані відсотки: {profit1:.2f}")
+
 deposit_account['balance']=deposit_account['balance']+deposit_account['balance']*deposit_account['interest_rate']
 
+deposit_account['last_update_type']="interest accrual"
+
+deposit_account['is_active']=False
+
+print(deposit_account)
