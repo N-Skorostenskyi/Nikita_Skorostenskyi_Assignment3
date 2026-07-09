@@ -11,3 +11,7 @@ book_profile = {
 print(f"Назва: {book_profile["title"]}, автор: {book_profile["author"]}")
 print(f"Видавництво: {book_profile['publisher_info']['name']}")
 print(f"Книга \"{book_profile['title']}\" автора {book_profile["author"]} була видана у місті {book_profile['publisher_info']['city']}")
+if ("year" in book_profile):
+    print (book_profile["year"])
+else:
+    print("Рік видання невідомий")
